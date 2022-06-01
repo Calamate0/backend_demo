@@ -82,16 +82,28 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME':'C_CDATABASE',
-        'USER': 'daniel',
-        'PASSWORD': '123456',
-        'HOST': 'CC-MX-BIM-025',  
+        'NAME':'ccdatabase1',
+        'USER': 'devbrian',
+        'PASSWORD': '986ccgr**/89yuft',
+        'HOST': 'consultingconstructionserv.database.windows.net',  
         'PORT': '',
 
         'OPTIONS': {
             'driver': 'SQL Server Native Client 11.0',
         },
     }
+    # 'default': {
+    #     'ENGINE': 'mssql',
+    #     'NAME':'C_CDATABASE',
+    #     'USER': 'daniel',
+    #     'PASSWORD': '123456',
+    #     'HOST': 'CC-MX-BIM-025',  
+    #     'PORT': '',
+
+    #     'OPTIONS': {
+    #         'driver': 'SQL Server Native Client 11.0',
+    #     },
+    # }
 }
 
 
