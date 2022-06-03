@@ -21,6 +21,12 @@ router = routers.DefaultRouter()
 router.register('users', views.UserViewSet)
 router.register('groups', views.GroupViewSet)
 router.register('OmniClass23', views.OmniClass23ViewSet)
+router.register('OMC23Nivel1', views.OMC23Nivel1ViewSet)
+router.register('OMC23Nivel2', views.OMC23Nivel2ViewSet)
+router.register('OMC23Nivel3', views.OMC23Nivel3ViewSet)
+router.register('OMC23Nivel4', views.OMC23Nivel4ViewSet)
+router.register('OMC23Nivel5', views.OMC23Nivel5ViewSet)
+router.register('OMC23Nivel6', views.OMC23Nivel6ViewSet)
 
 
 urlpatterns = [
