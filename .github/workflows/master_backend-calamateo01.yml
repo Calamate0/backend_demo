@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'backend-calamateo01'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CF8E727EB1E24FCFB7781C21F90FFD7C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AC6D792D01CE46E390176F74D183A343 }}
