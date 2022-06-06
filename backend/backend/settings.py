@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-
+from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -85,10 +85,10 @@ DATABASES = {
         'USER': 'devbrian',
         'PASSWORD': '986ccgr**/89yuft',
         'HOST': 'consultingconstructionserv.database.windows.net',  
-        'PORT': '',
+        'PORT': '1433',
 
         'OPTIONS': {
-            'driver': 'SQL Server Native Client 11.0',
+             'driver': 'ODBC Driver 17 for SQL Server', 
         },
     }
     # 'default': {
